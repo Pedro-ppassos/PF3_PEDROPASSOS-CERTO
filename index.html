@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Calculadora </title>
+  <link rel="stylesheet" href="main.css" />
+
+  <!-- FONT FAMILY -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+  href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap"
+  rel="stylesheet"
+  />
+</head>
+
+<body>
+ <section class="section">
+  <h2>POUPANÇA</h2>
+  <form>
+
+    <div class="user-box">
+      <label>Nome:</label> <BR>
+      <input type="text" id="nome" class="nome" required="">
+
+    </div>
+
+    <div class="user-box">
+      <label>Valor:</label> <BR>
+      <input type="number" id="valor" class="valor" required="">
+
+    </div>
+
+    <div class="user-box">
+      <label> Juros: </label> <BR>
+      <input type="number"  id="juros"  class="juros" required="">
+
+    </div>
+
+    <div class="user-box">
+      <label> Tempo: </label> <BR>
+      <input type="number"  id="data" class="data" required="">
+      <br><br>
+      <button class="btn" type="button" id="calcular" value="calcular">
+        Calcular
+      </button> 
+
+      <div class="result" style="color: aliceblue;" id="resultado"></div> <br> <br>
+    </div>
+
+    <footer style="color: #f5efd7;" >PROVA TRIMESTRAL</footer>
+
+  </div>
+</form>
+</div>
+</body>
+<script src="main.js"></script>
+</html>
